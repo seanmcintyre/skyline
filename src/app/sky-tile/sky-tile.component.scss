@@ -7,6 +7,15 @@
   border-radius: 5px;
   background: linear-gradient(rgb(56, 49, 120), rgb(82, 122, 151));
   position: relative;
+  transition: 120ms;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow:
+      0 2px 16px 0 rgba(0,0,0,.12),
+      0 14px 24px -6px rgba(0,0,0,.1);
+  }
 }
 
 @mixin vcen {
