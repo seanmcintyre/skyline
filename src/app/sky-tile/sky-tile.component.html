@@ -1,5 +1,6 @@
 <div class="tile"
-  (click)="tickHour()">
+  (click)="tickHour()"
+  [ngStyle]="skyGradient()">
   <div class="clock">
     <div class="ring"></div>
     <div class="hour">{{hour}}</div>
